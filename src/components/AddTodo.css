@@ -1,0 +1,81 @@
+.addTodo-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.addTodo-group1 {
+  margin-top: 150px;
+  width: 700px;
+  min-height: 450px;
+  overflow: scroll;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(155, 81, 224, 0.05999999865889549);
+}
+.addTodo-text {
+  width: 500;
+  top: 48px;
+  left: 203px;
+  color: var(--dl-color-default-primary);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addTodo-rectangle2 {
+  top: 138px;
+  left: 55px;
+  width: 379px;
+  height: 55px;
+  position: absolute;
+  border-color: rgba(155, 81, 224, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.addTodo-button {
+  top: 138px;
+  left: 455px;
+  height: 60px;
+  position: absolute;
+  
+  width: 150px;
+  margin-right: 10px;
+  padding:5px;
+  border-radius: 5px;
+  height: 50px;
+  display: flex;
+  flex-shrink: 1;
+  background-color: rgba(155, 81, 224, 1);
+}
+.addTodo-button-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  padding: 5px;
+  padding-left: 30px;
+  font-style: ExtraBold;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.TodoList-container{
+  top: 250px;
+  position: absolute;
+  width: 600;
+  padding-left: 50px;
+}
