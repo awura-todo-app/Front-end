@@ -7,7 +7,6 @@ const TodoList = () => {
 		return state.tasks;
 	});
 
-	
 	return (
 		<ul className="tasks-list">
 			{todos.map((todo) => (
