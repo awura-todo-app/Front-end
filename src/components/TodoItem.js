@@ -21,7 +21,7 @@ const TodoItem = ({ id, title }) => {
 				<div class="task" data-id="1689516959241">
 					{title}
 					<span style={{color: 'red'}} onClick={()=>{removeTask();}}>
-						!Del
+					🗑
 					</span>
 				</div>
 			</div>

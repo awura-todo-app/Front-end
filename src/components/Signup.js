@@ -5,6 +5,7 @@ const SignUp = ()=>{
   const [password, setPassword] = useState()
   return(
     <div className='FOF-container'>
+		
     <div className='FOF-group3'>
     <input
 					type="text"
