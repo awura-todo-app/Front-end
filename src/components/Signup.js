@@ -6,7 +6,9 @@ const SignUp = ()=>{
   return(
     <div className='FOF-container'>
 		
+	
     <div className='FOF-group3'>
+	<h1>sign up</h1>
     <input
 					type="text"
 					placeholder="uset name or email"

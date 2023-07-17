@@ -8,6 +8,7 @@ const Fof = ()=>{
   return(
     <div className='FOF-container'>
     <div className='FOF-group3'>
+	<h1>Log in</h1>
     <input
 					type="text"
 					placeholder="uset name or email"
@@ -25,7 +26,9 @@ const Fof = ()=>{
 				<button className="FOF-button" >
 			 		<span className='addTodo-button-text'>Log in</span>
 			 	</button>
+				
     </div>
+	
   </div>
   )
 }
