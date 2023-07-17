@@ -4,6 +4,7 @@
   overflow: auto;
   align-items: center;
   flex-direction: column;
+  
 }
 .header {
   width: 100%;
@@ -24,6 +25,11 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  
+}
+.header-title-text{
+  text-decoration: none;
+
 }
 .header-buttons{
   margin-top: 50px;
@@ -37,6 +43,8 @@
   display: flex;
   flex-shrink: 1;
   background-color: rgba(155, 81, 224, 1);
+  text-decoration: none;
+
 }
 .header-text {
   color: rgba(255, 255, 255, 1);
