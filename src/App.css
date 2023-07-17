@@ -1,38 +1,175 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  overflow: auto;
+  min-height: 100vh;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.home {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.group3 {
+  top: 294px;
+  left: 254px;
+  width: 970px;
+  height: 507px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(155, 81, 224, 0.009999999776482582);
+}
+.text {
+  top: 51px;
+  left: 53px;
+  color: var(--dl-color-default-primary);
+  width: 800px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text02 {
+  top: 216px;
+  left: 53px;
+  color: var(--dl-color-default-primary);
+  width: 800px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.line1 {
+  top: 158px;
+  left: 50px;
+  width: 800px;
+  height: 1px;
+  position: absolute;
+}
+.header {
+  top: 0px;
+  left: -6px;
+  width: 1446px;
+  height: 120px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.text04 {
+  top: 35px;
+  left: 47.19583511352539px;
+  color: rgba(155, 81, 224, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: ExtraBold;
+  text-align: right;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group14 {
+  top: 35px;
+  left: 1102.574951171875px;
+  width: 127.52916717529297px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(155, 81, 224, 1);
+}
+.text06 {
+  top: 9px;
+  left: 15.062548637390137px;
+  color: rgba(255, 255, 255, 1);
+  width: 83px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ExtraBold;
+  text-align: right;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group12 {
+  top: 33px;
+  left: 1276.2957763671875px;
+  width: 127.52916717529297px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(155, 81, 224, 1);
+}
+.text08 {
+  top: 9px;
+  left: 30.125057220458984px;
+  color: rgba(255, 255, 255, 1);
+  width: 68px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ExtraBold;
+  text-align: right;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group13 {
+  top: 662px;
+  left: 307px;
+  width: 127px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(155, 81, 224, 1);
+}
+.text10 {
+  top: 9px;
+  left: 15px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ExtraBold;
+  text-align: right;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
