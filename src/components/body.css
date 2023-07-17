@@ -1,0 +1,57 @@
+.body-container {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  flex-direction: column;
+}
+.body-group3 {
+  width: 906px;
+  height: 600px;
+  display: flex;
+  position: relative;
+  flex-shrink: 1;
+  background-color: rgba(155, 81, 224, .0body-009999999776482582);
+}
+.body-text {
+  top: 51px;
+  left: 53px;
+  color: var(--dl-color-default-primary);
+  width: 800px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.body-text2 {
+  top: 216px;
+  left: 53px;
+  color: var(--dl-color-default-primary);
+  width: 800px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.body-line1 {
+  top: 158px;
+  left: 50px;
+  width: 800px;
+  height: 1px;
+  position: absolute;
+}
+
